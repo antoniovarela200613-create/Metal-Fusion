@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metal Fusión | Expertos en Cortinas Metálicas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        .animate-fade { animation: fadeIn 0.8s ease-out forwards; }
+        .glass { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .metal-bg { background: radial-gradient(circle at top, #1e2024 0%, #09090b 100%); }
+        .orange-glow { box-shadow: 0 0 20px rgba(234, 88, 12, 0.3); }
+        .card-hover:hover { transform: translateY(-10px); transition: all 0.3s ease; box-shadow: 0 20px 40px rgba(0,0,0,0.4); }
+    </style>
+</head>
+<body class="metal-bg text-gray-100 min-h-screen font-sans scroll-smooth">
+
+    
+    <header class="sticky top-0 z-50 glass border-b border-white/10 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <img src="logo.jpg" alt="Logo" class="h-14 drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]">
+                <div class="hidden sm:block">
+                    <h1 class="text-2xl font-black text-white uppercase tracking-tighter leading-none">Metal Fusión</h1>
+                    <p class="text-[10px] text-orange-500 font-bold uppercase tracking-[0.3em]">Calidad Industrial</p>
+                </div>
+            </div>
+            <nav class="flex items-center space-x-6">
+                <a href="#contacto" class="bg-orange-600 hover:bg-orange-500 text-white px-6 py-2 rounded-full font-bold text-sm transition-all orange-glow transform hover:scale-105">
+                    COTIZAR AHORA
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    
+    <section id="inicio" class="relative h-[85vh] flex items-center justify-center overflow-hidden">
+        <img src="cortina8.jpg" alt="Fondo" class="absolute inset-0 w-full h-full object-cover opacity-30 scale-110">
+        <div class="absolute inset-0 bg-gradient-to-t from-[#09090b] via-transparent to-transparent"></div>
+        
+        <div class="relative z-10 text-center max-w-5xl px-6 animate-fade">
+            <span class="text-orange-500 font-black uppercase tracking-[0.5em] text-sm mb-4 block">Seguridad & Confianza</span>
+            <h2 class="text-6xl md:text-9xl font-black text-white uppercase tracking-tighter leading-none mb-6 drop-shadow-2xl">
+                METAL <span class="text-orange-600">FUSIÓN</span>
+            </h2>
+            <p class="text-xl md:text-3xl text-gray-400 font-light max-w-3xl mx-auto leading-relaxed italic">
+                "Protegemos lo que más quieres con la solidez del acero"
+            </p>
+        </div>
+    </section>
+
+    <main class="max-w-7xl mx-auto px-6 py-20 space-y-32">
+        
+        
+        <section class="grid md:grid-cols-3 gap-8 animate-fade" style="animation-delay: 0.2s;">
+            <div class="glass p-8 rounded-3xl card-hover text-center border-t-4 border-orange-600">
+                <i class="fas fa-shield-alt text-4xl text-orange-500 mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">MÁXIMA SEGURIDAD</h3>
+                <p class="text-gray-400 text-sm italic">Cortinas diseñadas para resistir y perdurar.</p>
+            </div>
+            <div class="glass p-8 rounded-3xl card-hover text-center border-t-4 border-orange-600">
+                <i class="fas fa-bolt text-4xl text-orange-500 mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">INSTALACIÓN RÁPIDA</h3>
+                <p class="text-gray-400 text-sm italic">Servicio eficiente en todo Santiago.</p>
+            </div>
+            <div class="glass p-8 rounded-3xl card-hover text-center border-t-4 border-orange-600">
+                <i class="fas fa-tools text-4xl text-orange-500 mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">MANTENCIÓN</h3>
+                <p class="text-gray-400 text-sm italic">Alarga la vida útil de tus equipos.</p>
+            </div>
+        </section>
+
+        
+        <section id="trabajos" class="animate-fade" style="animation-delay: 0.4s;">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-black text-white uppercase">Nuestro Portafolio</h2>
+                <div class="h-1 w-24 bg-orange-600 mx-auto mt-4 rounded-full"></div>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="group relative overflow-hidden rounded-3xl h-80 glass">
+                    <img src="cortina1.jpg" class="w-full h-full object-cover group-hover:scale-125 transition duration-700" alt="Obra">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+                        <span class="text-orange-500 font-bold uppercase text-xs tracking-widest">Ver Detalle</span>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-3xl h-80 glass">
+                    <img src="cortina2.jpg" class="w-full h-full object-cover group-hover:scale-125 transition duration-700" alt="Obra">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+                        <span class="text-orange-500 font-bold uppercase text-xs tracking-widest">Ver Detalle</span>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-3xl h-80 glass">
+                    <img src="cortina3.jpg" class="w-full h-full object-cover group-hover:scale-125 transition duration-700" alt="Obra">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+                        <span class="text-orange-500 font-bold uppercase text-xs tracking-widest">Ver Detalle</span>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-3xl h-80 glass">
+                    <img src="cortina4.jpg" class="w-full h-full object-cover group-hover:scale-125 transition duration-700" alt="Obra">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+                        <span class="text-orange-500 font-bold uppercase text-xs tracking-widest">Ver Detalle</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <footer id="contacto" class="relative glass p-8 md:p-16 rounded-[4rem] border border-orange-500/30 shadow-[0_0_50px_rgba(234,88,12,0.1)] overflow-hidden">
+            <div class="absolute -top-24 -left-24 w-64 h-64 bg-orange-600/10 blur-[80px]"></div>
+            
+            <div class="relative z-10 grid md:grid-cols-2 gap-16 items-center">
+                <div class="space-y-8">
+                    <h3 class="text-5xl font-black text-white tracking-tighter leading-none">¿LISTO PARA PROTEGER TU NEGOCIO?</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-center space-x-4 glass p-4 rounded-2xl">
+                            <i class="fas fa-map-marker-alt text-orange-500 text-xl"></i>
+                            <span class="text-gray-300">San Bernardo, Santiago, Chile</span>
+                        </div>
+                        <div class="flex items-center space-x-4 glass p-4 rounded-2xl">
+                            <i class="fas fa-envelope text-orange-500 text-xl"></i>
+                            <span class="text-gray-300">alvarovarela209@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center md:items-end space-y-8">
+                    <div class="flex gap-8">
+                        <a href="https://wa.me/56985744143" target="_blank" class="text-4xl text-green-500 hover:text-white transition-all transform hover:scale-125">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100091461942060" target="_blank" class="text-4xl text-blue-500 hover:text-white transition-all transform hover:scale-125">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/metalfusion2026" target="_blank" class="text-4xl text-pink-500 hover:text-white transition-all transform hover:scale-125">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="text-center md:text-right">
+                        <p class="text-3xl font-black text-white">+56 9 8574 4143</p>
+                        <p class="text-orange-500 font-bold tracking-widest uppercase text-xs">Atención 24/7 - Siempre Abierto</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <div class="pb-10 text-center text-[10px] text-gray-700 uppercase tracking-[0.5em]">
+        Metal Fusión &copy; 2026 | Desarrollado con Pasión
+    </div>
+
+</body>
+</html>
